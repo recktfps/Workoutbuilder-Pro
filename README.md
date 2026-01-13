@@ -272,23 +272,6 @@ workoutbuilder-pro/
 
 ---
 
-## Configuration
-
-### RevenueCat Setup
-
-1. Create account at [revenuecat.com](https://www.revenuecat.com)
-2. Add your app to RevenueCat dashboard
-3. Configure products:
-   - **Monthly**: $6.99/month
-   - **Annual**: $49.99/year
-4. Update API keys in `src/services/purchases.ts`:
-   ```typescript
-   const REVENUECAT_API_KEY = {
-     ios: 'YOUR_IOS_API_KEY',
-     android: 'YOUR_ANDROID_API_KEY',
-   };
-   ```
-
 ### Firebase Analytics (Optional)
 
 1. Create Firebase project
@@ -297,28 +280,6 @@ workoutbuilder-pro/
    - `google-services.json` (Android)
    - `GoogleService-Info.plist` (iOS)
 4. Place in project root (Expo will auto-configure)
-
----
-
-## Subscription Tiers
-
-### Free Tier
-- 3 custom workout programs
-- 100+ exercise library
-- Workout logging with rest timer
-- 30-day history
-- Basic progress charts
-
-### Pro Tier ($6.99/month or $49.99/year)
-- Unlimited workout programs
-- Full 500+ exercise library
-- Unlimited workout history
-- Advanced analytics & trends
-- Strength standards comparison
-- Program templates
-- Custom exercises with photos
-- Data export (CSV, PDF)
-- Premium gradient themes
 
 ---
 
@@ -394,25 +355,6 @@ All user data stored locally using SQLite:
 - Anonymous usage analytics (opt-out available)
 - GDPR/CCPA compliant
 - Privacy Policy included in app
-
----
-
-## Monetization
-
-### Subscription Model
-- **Freemium**: Generous free tier to demonstrate value
-- **Soft Paywall**: Triggered after 3 programs or 30 days history
-- **7-Day Trial**: Free trial for all premium features
-- **Platform**: RevenueCat handles cross-platform subscriptions
-
-### Expected Conversion
-- Target: 10-12% free-to-paid conversion
-- Industry average: 5-8%
-- Higher conversion due to:
-  - Clear value demonstration in free tier
-  - Premium UI justifies subscription
-  - Fair pricing ($50/year)
-
 ---
 
 ## Performance
