@@ -8,12 +8,6 @@ WorkoutBuilder Pro combines premium visual design with professional-grade tracki
 
 ## Features
 
-### 🎨 Premium Design
-- Dark theme with bold gradients
-- Smooth 60fps animations
-- Haptic feedback throughout
-- Modern 2026 design language
-
 ### 💪 Powerful Tracking
 - Unlimited custom workout programs (Pro)
 - 500+ exercise library with animated demos
